@@ -30,10 +30,10 @@ export const SignInForm = (props: SignInFormProps) => {
     getRememberMe !== null ? encodeBase64Object(getRememberMe) : null;
   const encodedUserName = encodeUserInfo?.username
     ? encodeBase64(encodeUserInfo?.username)
-    : '';
+    : 'kminchelle';
   const encodedPassword = encodeUserInfo?.password
     ? encodeBase64(encodeUserInfo?.password)
-    : '';
+    : '0lelplR';
   const [isRememberMe, setRememberMe] = useState(
     encodeUserInfo?.remember_me || false
   );
@@ -101,14 +101,12 @@ export const SignInForm = (props: SignInFormProps) => {
   return (
     <>
       <FormTextField
-        defaultValue={'kminchelle'}
         name="username"
         label={t('signin.form.username')}
         control={control}
         autoComplete="email"
       />
       <FormTextField
-        defaultValue={'0lelplR'}
         type="password"
         name="password"
         label={t('signin.form.password')}
