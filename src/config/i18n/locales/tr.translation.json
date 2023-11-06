@@ -1,0 +1,88 @@
+{
+  "home": {
+    "title": "Posts",
+    "form": {
+      "title": "title",
+      "body": "body",
+      "validation": {
+        "title-required": "title can't be empty",
+        "title-max": "title must not exceed {{num}} characters",
+        "body-required": "body can't be empty"
+      }
+    },
+    "buttons": {
+      "submit": "login",
+      "reset": "Reset",
+      "delete": "Delete",
+      "update": "Update"
+    }
+  },
+  "navigation": {
+    "links": {
+      "home": "Home",
+      "about": "About"
+    }
+  },
+  "signin": {
+    "form": {
+      "username": "Username",
+      "password": "Password",
+      "validation": {
+        "username-required": "username can't be empty",
+        "username-max": "username must not exceed {{num}} characters",
+        "password-required": "password can't be empty",
+        "password-max": "password must not exceed {{num}} characters"
+      }
+    },
+    "button": {
+      "submit": "Login"
+    }
+  },
+  "add-product": {
+    "form": {
+      "name": "Title",
+      "description": "Description",
+      "category": "Category",
+      "price": "Price",
+      "stock": "Stock",
+      "validation": {
+        "name-required": "Product name is required",
+        "description-required": "Product description is required"
+      }
+    },
+    "button": {
+      "submit": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "product-edit": {
+    "title": "Edit Product",
+    "form": {
+      "name": "Title",
+      "description": "Description",
+      "category": "Category",
+      "price": "Price",
+      "stock": "Stock",
+      "info": {
+        "name": "enter the menu name.",
+        "description": "enter the menu description."
+      },
+      "validation": {
+        "name-required": "Product name is required",
+        "description-required": "Product description is required"
+      }
+    },
+    "button": {
+      "submit": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "delete-product-list": {
+    "title": "Delete Product List",
+    "description": "You are about to delete this product list. Do you wish to continue?",
+    "button": {
+      "delete": "Delete",
+      "cancel": "No, Thanks"
+    }
+  }
+}
