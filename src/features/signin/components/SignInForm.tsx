@@ -101,12 +101,14 @@ export const SignInForm = (props: SignInFormProps) => {
   return (
     <>
       <FormTextField
+        defaultValue={'kminchelle'}
         name="username"
         label={t('signin.form.username')}
         control={control}
         autoComplete="email"
       />
       <FormTextField
+        defaultValue={'0lelplR'}
         type="password"
         name="password"
         label={t('signin.form.password')}
